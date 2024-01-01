@@ -226,6 +226,10 @@ header .icons a:hover {
     padding: 1rem;
     background-color: rgba(255, 51, 153, .05); 
 }
+
+.products h1{
+    margin-bottom: 3rem;
+}
 .products span{
     color: var(--red);
 }
@@ -394,12 +398,12 @@ header .icons a:hover {
 
 footer .box-container{
     display: flex;
-    gap: 1.5rem;
+    gap: 5.5rem;
     flex-wrap: wrap;
 }
 footer .box-container .box{
     flex: 1 1 25rem;
-   
+    margin: 3rem 0 0 12rem;
 }
 
 footer .box-container .box h3{
